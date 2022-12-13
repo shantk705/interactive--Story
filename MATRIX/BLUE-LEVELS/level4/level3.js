@@ -19,10 +19,9 @@ function iShoot(enemy){
     
 
     if(!livingEnemies().length) {
-        alert(" You won! You killed the viruses that smith had sent");
+        alert(" You won! You killed the viruses that smith had sent.You saved the people of Zion and destroyed the simulation.");
     }
-    
-}
+    }
 
 
 function enemyAttacksMe(enemy){
