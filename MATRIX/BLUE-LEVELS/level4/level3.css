@@ -1,0 +1,93 @@
+#healthbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 100%;
+    background-color: red;
+    transition: width .5s;
+
+}
+
+#gameFrame{
+    
+   
+    background-color: black;
+    background-image: url("https://i.pinimg.com/originals/0c/75/b5/0c75b50cc49ef9d45966c169fdab9f48.jpg");
+    background-position: top;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    top: 20px;
+    height: 600px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 20px solid green;
+    border-right: 20px solid green;
+    border-left: 20px solid green;
+}
+
+
+
+button{
+position: absolute;
+top: 650px;
+left: 50%;
+}
+
+.enemy {
+    background-color: green;
+    position:absolute;
+    width: 80px;
+    height: 100px;
+    border-top: 50px solid black;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+
+    border-radius: 30%;
+    border-bottom: 50px solid black; ;
+
+    bottom: -1000px;
+    transition: all .5s;
+    
+  
+}
+
+
+
+#enemy1{margin-left: 50px;}
+#enemy2{margin-left: 100px;}
+#enemy3{margin-left: 250px;}
+#enemy4{margin-left: 400px;}
+#enemy5{margin-left: 550px;}
+#enemy6{margin-left: 650px;}
+#enemy7{margin-left: 900px;}
+#enemy8{margin-left: 1000px;}
+#enemy9{margin-left: 1500px;}
+
+
+
+.enemy.showing{
+    bottom: 0;
+}
+
+
+.enemy.shooting{
+
+    background-color: red;
+    border-top: 50px solid black;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    
+}
+
+.enemy.dead{
+
+    background-color: black;
+    height: 10px;
+}
+
+
+
+
