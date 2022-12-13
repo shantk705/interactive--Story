@@ -9,7 +9,7 @@ function updateHealthPoints(points){
     if( healthPoints < 1 ) {
         alert("Game over!");
         window.location.reload();
-    
+        
     }
 } 
 
@@ -20,7 +20,9 @@ function iShoot(enemy){
 
     if(!livingEnemies().length) {
         alert(" You won! You killed the viruses that smith had sent.You saved the people of Zion and destroyed the simulation.");
+        location.href="/MATRIX/RED-LEVELS/LEVEL5/index.html";
     }
+   
     }
 
 

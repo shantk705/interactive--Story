@@ -65,9 +65,6 @@ left: 50%;
 #enemy7{margin-left: 900px;}
 #enemy8{margin-left: 1000px;}
 #enemy9{margin-left: 1500px;}
-
-
-
 .enemy.showing{
     bottom: 0;
 }

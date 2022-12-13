@@ -19,5 +19,5 @@ function videoEnded() {
  }
 
  function bluePill(){
-  location.href="//RASHA LEVEL1 INDEX";
+  location.href="/MATRIX/RED-LEVELS/LEVEL8/missing-number.html";
  }

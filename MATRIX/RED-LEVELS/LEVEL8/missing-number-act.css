@@ -135,56 +135,39 @@ body{
   .secf{
     margin-left: 1em;
   }
-  .ques{
-    color: #66FF66;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-style: italic;
-  font-size: 24px;
-  display:block;
-  margin-top: 1em;
-  margin-left: 11em;
-  text-align:center;
-  }
-  #answer{
-    margin-top: 1em;
-    margin-left: 70em;
-    padding-left: 10em;
-    padding-top: 1em;
-    padding-bottom: 1em;
+
+
+ 
+  .happy{
+    margin-top: -30em;
+    margin-bottom: 6em;
+    width: 35em;
+    height: 25em;
+    margin-left: 10em;;
+    margin-right: 30em;
+    transform:rotate3d(1, 1, 1, -10deg);
   }
 
+  .open-locker{
+    margin-top: -15em;
+    margin-bottom: 6em;
+    width: 30em;
+    height: 25em;
+    margin-left: 82em;
+    margin-right: 5em;
+    transform:rotate3d(1, 1, 1, 15deg);
+  }
   #submit{
     font-weight: bolder;
     font-size: 15px;
     color: #32CD32;
-    margin-top: 2em;
-    margin-left: 65em;
+    margin-top: -2em;
+    margin-left: 57em;
     padding-right: 1em;
     padding-top: 1em;
     padding-bottom: 1em;
-    width: 15em;
+    
   }
-  
-
-  .confused{
-    margin-top: -113em;
-    margin-bottom: 0em;
-    width: 35em;
-    height: 25em;
-    margin-left: 6em;
-    transform:rotate3d(1, 1, 1, -10deg);
-  }
-  
-  .lock{
-
-    margin-top: -113em;
-    margin-bottom: 0em;
-    width: 30em;
-    height: 25em;
-    margin-left: 45em;
-    transform:rotate3d(1, 1, 1, 15deg);    
-  }
-
 .glow {
    
     color: #fff;
@@ -194,7 +177,7 @@ body{
     animation: glow 1s ease-in-out infinite alternate;
   }
   
-  @-webkit-keyframes glow {
+  @keyframes glow {
     from {
       text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #32CD32, 0 0 40px #32CD32, 0 0 50px #32CD32, 0 0 60px #32CD32, 0 0 70px #32CD32;
     }

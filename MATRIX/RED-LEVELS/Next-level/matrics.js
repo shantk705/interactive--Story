@@ -5,7 +5,7 @@ function myFunction() {
 
         if (confirm = true) {
           
-          location.href="/third-level/binary.html"
+          location.href="../third-level/binary.html"
     }
 }
     else if(document.getElementById("answer").value!=24){
@@ -19,7 +19,7 @@ function countDown(secs,elem){
   if(secs<1){
       clearTimeout(timer);
       alert("Gameover! But you have another chance to search for more clues about Smith" )
-      location.href="/Next-level/matrices.html"
+      location.href="../Next-level/matrices.html"
   }
   secs--;
   var timer= setTimeout('countDown('+secs+',"'+elem+'")',1000);

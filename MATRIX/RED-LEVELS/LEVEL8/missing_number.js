@@ -13,7 +13,7 @@ function myFunction() {
        
         document.getElementById("answer").style.border="5px solid green";
 
-          location.href="/Levelone-BluePill/missing-number-act.html"
+          location.href="../LEVEL8/missing-number-act.html"
   
     }
   
@@ -30,7 +30,7 @@ function myFunction() {
         clearTimeout(timer);
         element.innerHTML='<h2>Game Over!!! But you have another try</h2>';
         alert("Gameover! But you have another chance to search for more clues about Smith" )
-        location.href="/Levelone-BluePill/missing-number.html"
+        location.href="../LEVEL8/missing-number.html"
     }
     secs--;
     var timer= setTimeout('countDown('+secs+',"'+elem+'")',1000);
