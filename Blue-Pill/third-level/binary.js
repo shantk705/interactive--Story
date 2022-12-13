@@ -4,7 +4,7 @@ function myFunction() {
         alert("OOPS! There is a message from Smith to you: We're not here because we're free. We're here because we're not free. There's no escaping reason. No denying purpose. Because as we both know without purpose, we would not exist." ) 
         //go to next level
         if (confirm = true) {
-          location.href="URL"
+          location.href="Raoul here you should addddddddddddd theeee  Rifaat url"
     }
 }
     else if(document.getElementById("answer").value!=697){
