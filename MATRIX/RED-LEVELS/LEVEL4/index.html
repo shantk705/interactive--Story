@@ -1,27 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/MATRIX/RED-LEVELS/LEVEL4/style.css">
     <title>Document</title>
 </head>
-<body>
-    <div class="text">
-        <p>Good job Neo you have successfully defeated the Merovingian,Thats why
-            agent smith decided to take action and beat you himself
-            keep in mind that you are wounded from your previous fight,
-            if you think that you might lose the fight you can take the blue pill and escape.
-        </p>
+<body onload="loading()">
+    <p>Loading resources, on our way to morpheus</p>
+    <div id="load">
     </div>
-    <video id="myvideo"   onended="videoEnded()">
-        <source src="/MATRIX/videos/agentsmith fight.mp4"  />
-          Your browser does not support the video tag.
-      </video>
-      <button id="button1"  onclick="play_video()">Battle Agent Smith</button>
-      <button id="button2" onclick="bluePill()" >Take the bluePill</button>
-
-    <script src="level4.js"></script>
+    <video id="vid" onended="lol()" controls>
+        <source src="/MATRIX/videos/meetin morpheus - Made with Clipchamp.mp4" type="video/mp4">
+     </video>
+     <div id="container">
+     <img src="/MATRIX/images/Morpheus.png" alt="morpheus">
+        <a href="/MATRIX/RED-LEVELS/LEVEL6/index.html" id="a1"></a>
+        <a href="#" id="a2"></a>
+    </div>
+    <script src="/MATRIX/RED-LEVELS/LEVEL4/json.js"></script>
 </body>
 </html>
